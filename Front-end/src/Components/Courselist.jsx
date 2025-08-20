@@ -141,7 +141,7 @@ function Courselist() {
                       className="border-b hover:bg-white/50 transform transition-all duration-300 hover:scale-99"
                     >
                       <td className="px-4 py-3 text-center">{index + 1}</td>
-                      <td className="px-4 py-3 text-left">{Course.course}</td>
+                      <td className="px-4 py-3 text-left break-all w-50">{Course.course}</td>
                       <td className="px-4 py-3 text-left">
                         <span
                           className={`px-3 py-1 rounded-full text-white ${

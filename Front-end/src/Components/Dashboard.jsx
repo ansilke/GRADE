@@ -7,7 +7,7 @@ function Dashboard() {
 
   return (
     <>
-      <div className="ml-10 flex w-[80px] h-[100vh] items-center justify-center flex-col mr-10 ">
+      <div className="ml-10 flex w-[50px] h-[100vh] items-center justify-center flex-col mr-14 ">
         
 
         <div onClick={() => navigate("/admindashboard")} className="relative group w-fit">

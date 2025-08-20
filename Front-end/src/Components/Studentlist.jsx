@@ -235,7 +235,7 @@ function Studentlist() {
                         </button>
                         <button
                           onClick={() => handleToggleStatus(student._id)}
-                          className={`px-5 py-1 rounded flex justify-center items-center text-sm w-24 text-white ${
+                          className={`px-5 py-1 rounded flex justify-center items-center text-sm w-20 text-white ${
                             student.status === "Active"
                               ? "bg-red-500 transition-all duration-500 hover:shadow-[0_0_20px_#FF0000] "
                               : "bg-green-500 transition-all duration-500 hover:shadow-[0_0_20px_#00FF00]"
@@ -247,7 +247,7 @@ function Studentlist() {
                         </button>
                         <button
                           onClick={() => setopenviewModal(true)}
-                          className="bg-blue-500 text-white px-5 py-1 rounded  transition-all duration-500 hover:shadow-[0_0_20px_#009CFF]"
+                          className="bg-blue-500 text-white px-5 py-1 rounded w-20  transition-all duration-500 hover:shadow-[0_0_20px_#009CFF]"
                         >
                           View
                         </button>
